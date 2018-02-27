@@ -1,0 +1,100 @@
+/*
+Theme Name:  TattooPro Child
+Theme URI: http://demo.wolfthemes.com/tattoopro
+Description: TattooPro Child theme
+Author: WolfThemes
+Author URI: http://wolfthemes.com/
+Template: tattoopro
+Version: 1.0.0
+*/
+body.home h1{
+	margin-top: -180px;
+	text-shadow: 3px 3px 8px #000;
+}
+body.home #hero-content p {
+    letter-spacing: 5px;
+    text-shadow: 5px 1px 5px #000;
+    font-weight: bolder;
+}
+body.home #navbar-container-left.transparency a {
+    text-shadow: 0px 0px 0px #fff;
+}
+body.home h2.fold2{
+    line-height: 2 !important;
+}
+body.home div.fold4 {
+    /* margin-top: -65px; */
+}
+body.home div.fold4 div.call-to-action-button {
+    text-align: center !important;
+}
+body.home div.zigzag {
+    padding: 35px 0;
+}
+body.home div.fold9 h4 {
+    /* color: #d6d6d6; */
+    color: #fff;
+}
+body.home div.foldFormation h4{
+    color: #fff !important;
+    text-shadow: 3px 3px 8px #000;
+}
+body.home div.foldFormation div.call-to-action-button a:hover{
+    background: #ad9b51 !important;
+    color: #fff !important;
+    border-color: #9e8e4c !important;
+}
+body.home #navbar-container-left footer a{
+    text-shadow: none !important;
+}
+body.home div.foldGalHp div.call-to-action-button{
+    text-align: center !important;
+}
+body.home div.foldActuHp h2{
+    color:#fff !important;
+}
+
+/* Article */
+body.single-post article div.author-info{
+    display: none;
+}
+body.single-post article h2.comments-title{
+    display: none;
+}
+body.single-post section.page-header-container div.entry-meta{
+    top: 25px;
+    position: relative;
+}
+
+
+/*nav*/
+#navbar-container-left .site-tagline {
+    text-shadow: 3px 2px 8px #000;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-family: 'Raleway';
+}
+
+/*Page int*/
+.page-title-container .page-title {
+    letter-spacing: 18px;
+    text-shadow: 24px 28px 10px #fff;
+}
+
+@media screen and (min-width: 1200px){
+	.has-header-image.page-header-big .page-header {
+	    height: 47rem;
+	    height: 50vh;
+	}
+}
+section.pricing-tables{
+	width: 100%;
+    margin : 0;
+}
+div.pricing-table-inner {
+    width: 100% !important;
+    margin: 10px auto;
+    padding: 0;
+}
