@@ -53,6 +53,78 @@ body.home div.foldGalHp div.call-to-action-button{
 body.home div.foldActuHp h2{
     color:#fff !important;
 }
+body.home div.blocDescTatoueType h5{
+    line-height: 30px;
+}
+@media screen and (max-width: 500px){
+    body.home div.blocDescTatoueType span.wolf-linked-image-secondary-text{
+        display: none;
+    }
+    body.home div.blocDescTatoueType h5{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1140px){
+    body.home div.logo img{
+        transform: scale(1.5);
+        left: 65px;
+        top: 18px;
+    }
+}
+@media screen and (max-width: 900px){
+    body.home div.logo img{
+        transform: scale(2.5);
+        left: 108px;
+        top: 32px;
+    }
+    body.home div.menu-toggle{
+        top: 28px !important;
+        right: 18px !important;
+        transform: scale(1.4);
+    }
+}
+@media screen and (max-width: 800px){
+    body.home div.logo img{
+        transform: scale(2.5);
+        left: 108px;
+        top: 32px;
+    }
+    body.home div.menu-toggle{
+        top: 37px !important;
+        right: 33px !important;
+        transform: scale(1.5);
+    }
+    body.home nav.navigation{
+        padding-top: 130px !important;
+    }
+    body.home div.menu-toggle{
+        position: absolute;
+        z-index: 1;
+    }
+    body.home div.logo{
+        position: absolute;
+        z-index: 0;
+    }
+}
+@media screen and (max-width: 400px){
+    body.home div.logo img {
+        transform: scale(2.2);
+        top: 80px;
+    }
+    body.home nav.navigation {
+        padding-top: 160px !important;
+    }
+}
+@media screen and (max-width: 350px){
+    body.home div.logo img {
+        left: 90px;
+    }
+}
+@media screen and (max-width: 300px){
+    body.home div.logo img {
+        left: 75px;
+    }
+}
 
 /* Article */
 body.single-post article div.author-info{
@@ -69,12 +141,30 @@ body.single-post section.page-header-container div.entry-meta{
 
 /*nav*/
 #navbar-container-left .site-tagline {
-    text-shadow: 3px 2px 8px #000;
+    text-shadow: 1px 1px 2px #000;
     text-align: center;
     margin-top: -20px;
     font-size: 14px;
     letter-spacing: 0px;
     font-family: 'Raleway';
+    padding-bottom: 20px;
+}
+#navbar-container-left.transparency .site-tagline {
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    margin-left: 90px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+body:not(.home) nav li.current-menu-item{
+    font-weight: 600;
+}
+#navbar-container-left.transparency .logo-light {
+    transform: scale(1.5);
+    margin-left: 32px;
 }
 
 /*Page int*/

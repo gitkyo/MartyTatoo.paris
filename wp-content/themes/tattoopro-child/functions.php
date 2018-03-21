@@ -105,6 +105,8 @@ add_filter( 'auto_update_plugin', '__return_true' );
 add_filter( 'auto_update_theme', '__return_true' );
 add_filter( 'auto_update_translation', '__return_false' );
 
+// Add custom script
+wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/script.js', array ( 'jquery' ), 1.1, true);
 
 
 // Have fun!
