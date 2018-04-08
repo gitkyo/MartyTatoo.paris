@@ -1048,13 +1048,13 @@ WolfThemeUi = function( $ ) {
 		 */
 		hideOverlay : function () {
 
-			if ( ! this.isIE() ) {
-				var _this = this;
-				_this.overlay.fadeOut( 'slow', function() {
-					_this.body.addClass( 'loaded' );
-					clearInterval( _this.timer );
-				} );
-			}
+			//if ( ! this.isIE() ) {
+			var _this = this;
+			_this.overlay.fadeOut( 'slow', function() {
+				_this.body.addClass( 'loaded' );
+				clearInterval( _this.timer );
+			} );
+			//}
 		},
 
 		/**

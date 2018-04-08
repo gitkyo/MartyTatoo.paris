@@ -307,6 +307,7 @@ if ( ! function_exists( 'wolf_output_title' ) ) {
 			}
 
 			if ( 'video' == $type && ! is_search() ) {
+				$video_img = wolf_get_url_from_attachment_id( $video_img, 'extra-large' );
 				?>
 				<div class="video-container">
 					<?php
@@ -315,7 +316,7 @@ if ( ! function_exists( 'wolf_output_title' ) ) {
 					}
 					
 					elseif( $video_youtube_url && 'youtube' == $video_bg_type ) {
-						// debug(  $video_img );
+						
 						echo wolf_youtube_video_bg( $video_youtube_url, $video_img );
 					}
 					?>

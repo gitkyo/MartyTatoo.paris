@@ -236,6 +236,7 @@ if ( ! function_exists( 'wolf_body_classes' ) ) {
 			$header_bg_color = get_post_meta( $header_post_id, '_header_bg_color', true );
 			$header_bg_img = get_post_meta( $header_post_id, '_header_bg_img', true );
 			$header_bg_mp4 = get_post_meta( $header_post_id, '_header_video_bg_mp4', true );
+			$header_bg_yt = get_post_meta( $header_post_id, '_header_video_bg_youtube_url', true );
 
 			/* If category meta video bg */
 			if (
@@ -251,6 +252,7 @@ if ( ! function_exists( 'wolf_body_classes' ) ) {
 				&& wolf_get_category_meta( 'header_video_bg_mp4' ) ) {
 				$header_bg_type = 'video';
 				$header_bg_mp4 = wolf_get_category_meta( 'header_video_bg_mp4' );
+				$header_bg_yt = wolf_get_category_meta( 'header_video_bg_youtube_url' );
 			}
 
 			if ( $header_post_id && ! is_search() ) {
@@ -267,7 +269,7 @@ if ( ! function_exists( 'wolf_body_classes' ) ) {
 
 				} elseif ( 'video' == $header_bg_type ) {
 
-					if ( $header_bg_mp4 ) {
+					if ( $header_bg_mp4 || $header_bg_yt ) {
 
 						$classes[] = 'has-header-image';
 					} else {

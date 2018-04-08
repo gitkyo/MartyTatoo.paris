@@ -13031,6 +13031,15 @@ ul.product_list_widget li .reviewer {
   width: 100%;
   margin: 5px 0;
 }
+.woocommerce-cart button {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.woocommerce-cart button {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 .shipping-calculator-form {
   margin-top: 30px;
@@ -13284,9 +13293,9 @@ table.cart input,
 .woocommerce #payment div.payment_box,
 .woocommerce-page #payment div.payment_box {
   position: relative;
-  width: 96%;
+  width: 100%;
   padding: 10px;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
   font-size: 0.92em;
   -o-border-radius: 2px;
   border-radius: 2px;

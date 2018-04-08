@@ -1,3 +1,8 @@
+#### 22th March 2018 - Version 1.8.9
+
+* Fix: Header video background image fallback
+* Other: Updated Slider Revolution & WPBakery Page Builder
+
 #### 16th Feburary 2018 - Version 1.8.7
 
 * Fix: Loading animation fired when clicking browser back button
