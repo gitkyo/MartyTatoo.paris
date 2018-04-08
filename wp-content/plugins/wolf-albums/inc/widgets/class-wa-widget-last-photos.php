@@ -7,7 +7,7 @@
  * @author WolfThemes
  * @category Widgets
  * @package WolfAlbums/Widgets
- * @version 1.2.5
+ * @version 1.2.6
  * @extends WP_Widget
  */
 

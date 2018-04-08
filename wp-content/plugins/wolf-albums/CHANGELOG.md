@@ -1,3 +1,7 @@
+#### 23th March 2018 - Version 1.2.6
+
+* Tweak: Add post state in admin
+
 #### 22st September 2017 - Version 1.2.5
 
 * Fix: WPML compatibility issue

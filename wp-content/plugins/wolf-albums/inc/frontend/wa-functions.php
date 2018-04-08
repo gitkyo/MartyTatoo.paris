@@ -131,11 +131,12 @@ if ( ! function_exists( 'wolf_get_photos_widget' ) ) {
 			echo '<div style="clear:both"></div>';
 
 
-		}else{
+		} else {
 			echo "<p>";
 			esc_html_e( 'No photo uploaded yet.', 'wolf-albums' );
 			echo "</p>";
 		}
+
 		wp_reset_postdata();
 		return ob_get_clean();
 	}

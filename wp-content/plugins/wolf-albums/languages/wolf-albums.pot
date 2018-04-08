@@ -1,14 +1,14 @@
-# Copyright (C) 2017 WolfThemes
+# Copyright (C) 2018 WolfThemes
 # This file is distributed under the same license as the Wolf Albums package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Wolf Albums 1.2.5\n"
+"Project-Id-Version: Wolf Albums 1.2.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-albums\n"
-"POT-Creation-Date: 2017-09-22 13:46:10+00:00\n"
+"POT-Creation-Date: 2018-03-23 11:52:25+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -202,7 +202,7 @@ msgstr ""
 msgid "Shortcode"
 msgstr ""
 
-#: inc/admin/class-wa-options.php:69
+#: inc/admin/class-wa-options.php:69 inc/admin/wa-admin-functions.php:28
 msgid "Albums Page"
 msgstr ""
 
@@ -417,11 +417,7 @@ msgstr ""
 msgid "Nothing found"
 msgstr ""
 
-#: wolf-albums.php:104 wolf-albums.php:111
-msgid "Cheatin&#8217; huh?"
-msgstr ""
-
-#: wolf-albums.php:140
+#: wolf-albums.php:126
 msgid ""
 "%1$s needs at least PHP %2$s installed on your server. You have version "
 "%3$s currently installed. Please contact your hosting service provider if "
@@ -448,12 +444,12 @@ msgstr ""
 msgid "https://wolfthemes.com"
 msgstr ""
 
-#: inc/frontend/wa-functions.php:163
+#: inc/frontend/wa-functions.php:164
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
 msgstr ""
 
-#: inc/frontend/wa-functions.php:164
+#: inc/frontend/wa-functions.php:165
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
