@@ -46,6 +46,14 @@ body.home div.fold9 h4 {
     }
 }
 
+body.home div.foldFormation .callToMoreFormationInfo div.call-to-action-button{
+    text-align: center !important;
+}
+body.home div.foldFormation .callToMoreFormationInfo {
+    margin-bottom: 60px;
+    padding-top: 0;
+    margin-top: -20px;
+}
 body.home div.foldFormation h4{
     color: #fff !important;
     text-shadow: 3px 3px 8px #000;
@@ -228,4 +236,8 @@ div.pricing-table-inner {
     width: 100% !important;
     margin: 10px auto;
     padding: 0;
+}
+
+body.page-template-full-width div.post-723 h2 small{
+    font-size: 12px;
 }
