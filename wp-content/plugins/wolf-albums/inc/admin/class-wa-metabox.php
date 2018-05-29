@@ -6,7 +6,7 @@
  * @author WolfThemes
  * @category Admin
  * @package WolfAlbums/Admin
- * @version 1.2.6
+ * @version 1.2.7
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

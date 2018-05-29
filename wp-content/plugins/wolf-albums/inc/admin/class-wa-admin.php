@@ -6,7 +6,7 @@
  * @author WolfThemes
  * @category Admin
  * @package WolfAlbums/Admin
- * @version 1.2.6
+ * @version 1.2.7
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -269,7 +269,9 @@ class WA_Admin {
 
 		if ( 'gallery_thumbnail' == $column_name ) {
 
-			if ( $thumbnail ) echo '<a href="' . get_edit_post_link() . '" title="' . esc_attr( sprintf( esc_html__( 'Edit "%s"', 'wolf-albums' ), get_the_title() ) ) . '">' . get_the_post_thumbnail( '', 'thumbnail' ) . '</a>';
+			if ( $thumbnail ) {
+				echo '<a href="' . get_edit_post_link() . '" title="' . esc_attr( sprintf( esc_html__( 'Edit "%s"', 'wolf-albums' ), get_the_title() ) ) . '">' . get_the_post_thumbnail( '', array( 60, 60 ), array( 'style' => 'max-width:60px;height:auto;' ) ) . '</a>';
+			}
 		}
 	}
 

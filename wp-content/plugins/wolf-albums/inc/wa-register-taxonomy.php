@@ -5,7 +5,7 @@
  * @author WolfThemes
  * @category Core
  * @package WolfAlbums/Admin
- * @version 1.2.6
+ * @version 1.2.7
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -28,6 +28,7 @@ $labels = array(
 	'separate_items_with_commas' => esc_html__( 'Separate gallery categories with commas', 'wolf-albums' ),
 	'add_or_remove_items' => esc_html__( 'Add or remove gallery categories', 'wolf-albums' ),
 	'choose_from_most_used' => esc_html__( 'Choose from the most used gallery categories', 'wolf-albums' ),
+	'not_found' => esc_html__( 'No categories found', 'wolf-albums' ),
 	'menu_name' => esc_html__( 'Categories', 'wolf-albums' ),
 );
 

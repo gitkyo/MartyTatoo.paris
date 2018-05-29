@@ -7,7 +7,7 @@
  * @author WolfThemes
  * @category Core
  * @package WolfAlbums/Core
- * @version 1.2.6
+ * @version 1.2.7
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Wolf Albums package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Wolf Albums 1.2.6\n"
+"Project-Id-Version: Wolf Albums 1.2.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-albums\n"
-"POT-Creation-Date: 2018-03-23 11:52:25+00:00\n"
+"POT-Creation-Date: 2018-05-07 15:52:48+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -59,11 +59,11 @@ msgstr ""
 msgid "Thumbnail"
 msgstr ""
 
-#: inc/admin/class-wa-admin.php:272
+#: inc/admin/class-wa-admin.php:273
 msgid "Edit \"%s\""
 msgstr ""
 
-#: inc/admin/class-wa-admin.php:281 inc/admin/class-wa-options.php:40
+#: inc/admin/class-wa-admin.php:283 inc/admin/class-wa-options.php:40
 msgid "Settings"
 msgstr ""
 
@@ -210,41 +210,45 @@ msgstr ""
 msgid "Max number of column"
 msgstr ""
 
-#: inc/admin/class-wa-options.php:108
+#: inc/admin/class-wa-options.php:105
+msgid "- Disabled -"
+msgstr ""
+
+#: inc/admin/class-wa-options.php:118
 msgid "Select a page..."
 msgstr ""
 
-#: inc/admin/class-wa-options.php:127 inc/admin/class-wa-options.php:142
+#: inc/admin/class-wa-options.php:137 inc/admin/class-wa-options.php:152
 msgid "Number of column on desktop screen"
 msgstr ""
 
-#: inc/admin/class-wa-options.php:153
+#: inc/admin/class-wa-options.php:163
 msgid "Albums Settings"
 msgstr ""
 
-#: inc/admin/class-wa-options.php:156
+#: inc/admin/class-wa-options.php:166
 msgid "Settings saved."
 msgstr ""
 
-#: inc/admin/class-wa-options.php:162
+#: inc/admin/class-wa-options.php:172
 msgid "Save Changes"
 msgstr ""
 
-#: inc/admin/class-wa-options.php:175
+#: inc/admin/class-wa-options.php:185
 msgid "Albums Shortcode"
 msgstr ""
 
-#: inc/admin/class-wa-options.php:176
+#: inc/admin/class-wa-options.php:186
 msgid ""
 "To display your last albums in your post or page you can use the following "
 "shortcode."
 msgstr ""
 
-#: inc/admin/class-wa-options.php:178
+#: inc/admin/class-wa-options.php:188
 msgid "Additionally, you can add a count and/or a category attribute."
 msgstr ""
 
-#: inc/admin/class-wa-options.php:181
+#: inc/admin/class-wa-options.php:191
 msgid "You can also add a column count attribute."
 msgstr ""
 
@@ -385,6 +389,10 @@ msgid "Choose from the most used gallery categories"
 msgstr ""
 
 #: inc/wa-register-taxonomy.php:31
+msgid "No categories found"
+msgstr ""
+
+#: inc/wa-register-taxonomy.php:32
 msgid "Categories"
 msgstr ""
 

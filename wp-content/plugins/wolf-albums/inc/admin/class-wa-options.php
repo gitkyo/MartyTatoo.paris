@@ -6,7 +6,7 @@
  * @author WolfThemes
  * @category Admin
  * @package WolfAlbums/Admin
- * @version 1.2.6
+ * @version 1.2.7
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -102,12 +102,22 @@ class WA_Options {
 	 * @return string
 	 */
 	public function setting_page_id() {
+		$page_option = array( '' => esc_html__( '- Disabled -', 'wolf-albums' ) );
 		$pages = get_pages();
+
+		foreach ( $pages as $page ) {
+
+			if ( get_post_field( 'post_parent', $page->ID ) ) {
+				$page_option[ absint( $page->ID ) ] = '&nbsp;&nbsp;&nbsp; ' . sanitize_text_field( $page->post_title );
+			} else {
+				$page_option[ absint( $page->ID ) ] = sanitize_text_field( $page->post_title );
+			}
+		}
 		?>
 		<select name="wolf_albums_settings[page_id]">
 			<option value="-1"><?php esc_html_e( 'Select a page...', 'wolf-albums' ); ?></option>
-			<?php foreach ( $pages as $page ) : ?>
-				<option <?php selected( absint( $page->ID ), get_option( '_wolf_albums_page_id' ) ); ?> value="<?php echo intval( $page->ID ); ?>"><?php echo sanitize_text_field( $page->post_title ); ?></option>
+			<?php foreach ( $page_option as $k => $v ) : ?>
+				<option <?php selected( absint( $k ), get_option( '_wolf_albums_page_id' ) ); ?> value="<?php echo intval( $k ); ?>"><?php echo sanitize_text_field( $v ); ?></option>
 			<?php endforeach; ?>
 		</select>
 		<?php

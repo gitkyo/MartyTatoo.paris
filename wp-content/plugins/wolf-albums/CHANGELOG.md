@@ -1,6 +1,7 @@
-#### 23th March 2018 - Version 1.2.6
+#### 7th May 2018 - Version 1.2.7
 
 * Tweak: Add post state in admin
+* Tweak: Add post thumbnail in admin post list
 
 #### 22st September 2017 - Version 1.2.5
 
