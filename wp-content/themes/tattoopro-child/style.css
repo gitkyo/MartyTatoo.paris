@@ -234,10 +234,51 @@ section.pricing-tables{
 }
 div.pricing-table-inner {
     width: 100% !important;
-    margin: 10px auto;
+    margin: 10px auto !important;
     padding: 0;
 }
 
 body.page-template-full-width div.post-723 h2 small{
     font-size: 12px;
 }
+
+
+
+/*EVENT PAGE*/
+body.page-id-684 .event-desc-text{
+    text-align: center;
+    margin-top: 62px;
+    padding: 0 1%;
+}
+body.page-id-684 .event-desc-title{
+    font-size: 1.5em !important;
+    margin-bottom: 45px;
+}
+
+body.page-id-684 .ref-title{
+    background-color: #f6f6f6;
+    margin-bottom: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+body.page-id-684 div.content-area div.wolf-row-inner{
+    padding:    0;
+}
+body.page-id-684 .allRef h4{
+    text-align: center;
+}
+body.page-id-684 .allRef i{
+    left: 0 !important;
+    text-align: center;
+    display: block !important;
+    position: relative !important;
+    margin: 0 auto !important;
+    top: 15px !important;
+}
+/* body.page-id-684 .rev-slider .second-text-slide-event{
+    text-align: center;
+    margin-left: 22%;
+    margin-top: -10px;
+    text-shadow: 1px 3px 7px #000;
+} */
