@@ -242,6 +242,17 @@ div.pricing-table-inner {
 body.page-template-full-width div.post-723 h2 small{
     font-size: 12px;
 }
+
+@media screen and (max-width: 500px){
+    body.page-template-full-width div.post-524 h4{
+        text-align: center;
+    }
+}
+
+
+body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
+    padding: 1em 0;
+}
 @media screen and (min-width: 1600px){
     body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
         padding: 4em 0;
@@ -249,14 +260,25 @@ body.page-template-full-width div.post-723 h2 small{
 }
 @media screen and (min-width: 1200px){
     body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
-        padding: 4em 0;
+        padding: 2em 0;
+    }
+}
+@media screen and (min-width: 900px){
+    body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
+        padding: 2em 0;
+    }
+}
+@media screen and (min-width: 500px){
+    body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
+        padding: 2em 0;
     }
 }
 
+
 body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner h2{
     text-transform: initial !important;
-    font-size : 40px !important;
-    line-height: 1.2 !important;
+    font-size: 2em !important;
+    line-height: 1 !important;
 }
 
 
