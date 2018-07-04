@@ -78,7 +78,7 @@ body.home div.blocDescTatoueType h5{
 body.home div.detatouageCallForAction{
     padding: 2.5em 25%;
 }
-
+body.home .foldTemoiHp{display : none;}
 
 /* body.home.sticky-menu div.logo img {
     transform: scale(1.8);
@@ -135,7 +135,7 @@ body.sticky-menu div#mobile-bar {
         transform: scale(1.5);
     } */
     nav.navigation{
-        padding-top: 130px !important;
+        /* padding-top: 130px !important; */
     }
     div.menu-toggle{
         position: absolute;
@@ -144,6 +144,7 @@ body.sticky-menu div#mobile-bar {
     div.logo{
         position: absolute;
         z-index: 0;
+        display: none !important;
     }
 }
 @media screen and (max-width: 400px){
@@ -153,7 +154,7 @@ body.sticky-menu div#mobile-bar {
         left: 75px;
     }
     nav.navigation {
-        padding-top: 160px !important;
+        /* padding-top: 160px !important; */
     }
 }
 @media screen and (max-width: 350px){
@@ -241,6 +242,23 @@ div.pricing-table-inner {
 body.page-template-full-width div.post-723 h2 small{
     font-size: 12px;
 }
+@media screen and (min-width: 1600px){
+    body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
+        padding: 4em 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner{
+        padding: 4em 0;
+    }
+}
+
+body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner h2{
+    text-transform: initial !important;
+    font-size : 40px !important;
+    line-height: 1.2 !important;
+}
+
 
 
 
@@ -259,12 +277,17 @@ body.page-id-684 .ref-title{
     background-color: #f6f6f6;
     margin-bottom: 0;
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 100px;
 }
 
 body.page-id-684 div.content-area div.wolf-row-inner{
     padding:    0;
 }
+body.page-id-684 .allRef {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
 body.page-id-684 .allRef h4{
     text-align: center;
 }
@@ -282,3 +305,25 @@ body.page-id-684 .allRef i{
     margin-top: -10px;
     text-shadow: 1px 3px 7px #000;
 } */
+
+div.foldTatoueurs{
+    display: none;
+}
+/*siwpebox */
+
+div#swipebox-overlay div#swipebox-bottom-bar{
+    -webkit-transform: translate3d(0,-50px,0);
+    -moz-transform: translate3d(0,-50px,0);
+    transform: translate3d(0,-50px,0);
+    background: none;
+    top: 55%;
+    bottom: 0;
+}
+div#swipebox-overlay div#swipebox-bottom-bar div#swipebox-arrows{
+    max-width: 92%;
+}
+div#swipebox-overlay div#swipebox-bottom-bar div#swipebox-arrows #swipebox-next,
+div#swipebox-overlay div#swipebox-bottom-bar div#swipebox-arrows #swipebox-prev{
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 30px;
+}
