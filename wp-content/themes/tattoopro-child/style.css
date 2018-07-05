@@ -78,7 +78,7 @@ body.home div.blocDescTatoueType h5{
 body.home div.detatouageCallForAction{
     padding: 2.5em 25%;
 }
-body.home .foldTemoiHp{display : none;}
+/* body.home .foldTemoiHp{display : none;} */
 
 /* body.home.sticky-menu div.logo img {
     transform: scale(1.8);
@@ -93,6 +93,8 @@ body.sticky-menu div.menu-toggle {
 body.sticky-menu div#mobile-bar {
     height: 75px;
 }
+
+
 
 
 @media screen and (max-width: 500px){
@@ -239,6 +241,14 @@ div.pricing-table-inner {
     padding: 0;
 }
 
+body.page-template-small-width div.post-998 div.foldCinema{
+    display: none;
+}
+
+body.page-id-684 h2{
+    font-size: 1.1em;
+}
+
 body.page-template-full-width div.post-723 h2 small{
     font-size: 12px;
 }
@@ -285,6 +295,21 @@ body.page-template-full-width div.text-only div.entry-content div.wolf-row-inner
 
 
 /*EVENT PAGE*/
+body.page-id-684 div.logo-1{
+    background-size: 15% !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+}
+body.page-id-684 div.logo-2{
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+}
+body.page-id-684 div.logo-3{
+    background-size: 37% !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+}
 body.page-id-684 .event-desc-text{
     text-align: center;
     margin-top: 62px;
@@ -294,14 +319,13 @@ body.page-id-684 .event-desc-title{
     font-size: 1.5em !important;
     margin-bottom: 45px;
 }
-
 body.page-id-684 .ref-title{
     background-color: #f6f6f6;
     margin-bottom: 0;
     padding-top: 55px;
     padding-bottom: 100px;
+    font-size: 3em !important;
 }
-
 body.page-id-684 div.content-area div.wolf-row-inner{
     padding:    0;
 }
@@ -309,7 +333,6 @@ body.page-id-684 .allRef {
     margin-top: 50px;
     margin-bottom: 60px;
 }
-
 body.page-id-684 .allRef h4{
     text-align: center;
 }
@@ -321,15 +344,48 @@ body.page-id-684 .allRef i{
     margin: 0 auto !important;
     top: 15px !important;
 }
-/* body.page-id-684 .rev-slider .second-text-slide-event{
-    text-align: center;
-    margin-left: 22%;
-    margin-top: -10px;
-    text-shadow: 1px 3px 7px #000;
-} */
+@media screen and (max-width: 800px){
+    body.page-id-684 div.logo-1{
+        background-size: 10% !important;
+    }
+    body.page-id-684 div.logo-2{
+        background-size: 33% !important;
+    }
+    body.page-id-684 div.logo-3{
+        background-size: 23% !important;
+    }
+    body.page-id-684 .ref-title{
+        padding-bottom: 40px;
+        font-size: 2.5em !important;
+    }
+}
+@media screen and (max-width: 500px){
+    body.page-id-684 .ref-title{
+        padding-bottom: 20px;
+        font-size: 2em !important;
+    }
+    body.page-id-684 div.logo-1{
+        background-size: 18% !important;
+    }
+    body.page-id-684 div.logo-2{
+        background-size: 40% !important;
+    }
+    body.page-id-684 div.logo-3{
+        background-size: 30% !important;
+    }
+    body.page-id-684 .tparrows{
+        display: none;
+    }
+}
 
-div.foldTatoueurs{
+/* Page notre equipe */
+body.page-id-2 div.foldTatoueurs{
     display: none;
+}
+@media screen and (max-width: 500px){
+    body.page-id-2 .tparrows{
+        display: none;
+    }
 }
 /*siwpebox */
 
