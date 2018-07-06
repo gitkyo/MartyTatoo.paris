@@ -98,22 +98,36 @@ if ( ! function_exists( 'wolf_set_lang' ) ) {
 
 }
 
+// Deregister Contact Form 7 styles
+add_action( 'wp_print_styles', 'aa_deregister_styles', 100 );
+function aa_deregister_styles() {
+    if ( ! is_page( 'contact' ) ) {
+        wp_deregister_style( 'contact-form-7' );
+    }
+}
+
+// Deregister Contact Form 7 JavaScript files on all pages without a form
+add_action( 'wp_print_scripts', 'aa_deregister_javascript', 100 );
+function aa_deregister_javascript() {
+    if ( ! is_page( 'contact' ) ) {
+        wp_deregister_script( 'contact-form-7' );
+    }
+}
+
 //Google analitycs
 add_action('wp_head','my_analytics', 20);
 
 function my_analytics() {
 ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121923901-1"></script>
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-ga('create', 'UA-69336560-2', 'auto');
-ga('send', 'pageview');
-
+  gtag('config', 'UA-121923901-1');
 </script>
-
 <?php
 }
 
