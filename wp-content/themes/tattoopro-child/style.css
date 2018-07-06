@@ -94,6 +94,16 @@ body.sticky-menu div#mobile-bar {
     height: 75px;
 }
 
+body.toggled-on div#mobile-bar{
+    height: 75px;
+    width: auto;
+    right: 0;
+    left: auto;
+}
+
+#site-navigation-primary-mobile{
+    padding-top: 0;
+}
 
 
 
@@ -123,6 +133,9 @@ body.sticky-menu div#mobile-bar {
         top: 28px !important;
         right: 18px !important;
         transform: scale(1.4);
+    }
+    body.toggled-on div.logo{
+        display: none !important;
     }
 }
 @media screen and (max-width: 800px){
@@ -163,6 +176,9 @@ body.sticky-menu div#mobile-bar {
     div.logo img {
         left: 60px;
         transform: scale(2.0);
+    }
+    body.toggled-on #site-navigation-primary-mobile {
+        padding-top: 65px !important;
     }
 }
 @media screen and (max-width: 310px){
