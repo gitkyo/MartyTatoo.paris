@@ -105,7 +105,18 @@ body.toggled-on div#mobile-bar{
     padding-top: 0;
 }
 
+@media screen and (max-width: 450px){
+    body.home div.detatouageCallForAction h4{
+        font-size: 1.3em;
+    }
 
+}
+@media screen and (max-width: 350px){
+    body.home div.detatouageCallForAction h4{
+        font-size: 1.2em;
+    }
+
+}
 
 @media screen and (max-width: 500px){
     body.home div.blocDescTatoueType span.wolf-linked-image-secondary-text{
@@ -114,6 +125,10 @@ body.toggled-on div#mobile-bar{
     body.home div.blocDescTatoueType h5{
         text-align: center;
     }
+    footer.site-footer{
+        text-align: center;
+    }
+
 }
 
 
@@ -137,6 +152,10 @@ body.toggled-on div#mobile-bar{
     body.toggled-on div.logo{
         display: none !important;
     }
+    body.home div.foldAdresse{
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 800px){
     /* body.home div.logo img{
