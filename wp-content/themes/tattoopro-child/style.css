@@ -44,6 +44,17 @@ body.home div.fold9 h4 {
     body.home div.call-to-action-button {
         text-align: center !important;
     }
+    body.page-id-10 div.boxIcon{
+        text-align: center;
+        margin: 3em auto;
+    }
+    body.page-id-10 div.boxIcon div.icon-title-holder{
+        text-align: center;
+        display: inline-block;
+    }
+    body.page-id-10 div.boxIcon div.icon-text-inner p{
+        max-width: 100%;
+    }
 }
 
 body.home div.foldFormation .callToMoreFormationInfo div.call-to-action-button{
