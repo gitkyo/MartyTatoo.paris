@@ -114,14 +114,21 @@ function aa_deregister_javascript() {
     }
 }
 
+//Cookiebot
+add_action('wp_head', function(){
+  ?>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="8c156243-97a9-447f-a462-39a5baed3a58" type="text/javascript" async></script>
+  <?php
+});
+
 //Google analitycs
 add_action('wp_head','my_analytics', 20);
 
 function my_analytics() {
 ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121923901-1"></script>
-<script>
+<script type="text/plain" data-cookieconsent="statistics" async src="https://www.googletagmanager.com/gtag/js?id=UA-121923901-1"></script>
+<script type="text/plain" data-cookieconsent="statistics">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
